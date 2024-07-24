@@ -1,0 +1,194 @@
+.container {
+    display: grid;
+    background-image: url(tm-sigma-00.jpg);
+    grid-template-areas:
+        'a b c'
+        'd d e'
+        'd d f'
+        'g g h';
+
+}
+
+.img1 {
+    grid-area: a;
+}
+
+.img2 {
+    grid-area: b;
+
+}
+
+.img3 {
+    grid-area: c;
+}
+
+.img4 {
+    grid-area: d;
+
+}
+
+.img5 {
+    grid-area: e;
+
+}
+
+.img6 {
+    grid-area: f;
+
+}
+
+.img7 {
+    grid-area: g;
+
+}
+
+.img8 {
+    grid-area: h;
+}
+
+.ee {
+    display: grid;
+    background-color: orange;
+    width: 100%;
+    object-fit: cover;
+    height: 25%;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.e1 {
+    background-image: url(tm-sigma-01.jpg);
+}
+
+.e2 {
+    background-image: url(tm-sigma-02.jpg);
+}
+
+.e3 {
+    background-image: url(tm-sigma-03.jpg);
+}
+
+.e4 {
+    background-image: url(tm-sigma-04.jpg);
+}
+
+#five {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    gap: 3px;
+    margin: 0px;
+
+}
+
+.s7 {
+    font-size: 20px;
+    padding: 10px;
+    
+    
+    text-align-last: center;
+    background-color: gray;
+}
+
+.s8 {
+    font-size: 20px;
+    padding: 10px;
+  
+  
+    text-align-last: center;
+    background-color: rgb(229, 198, 198);
+}
+
+.s9 {
+    font-size: 20px;
+    padding: 10px;
+   
+    
+    text-align-last: center;
+    background-color: rgb(213, 163, 163);
+}
+
+.s10 {
+    font-size: 20px;
+    text-align: center;
+    background-image: url(./tm-sigma-00.jpg);
+
+}
+
+#six {
+    display: flex;
+}
+
+button {
+    font-size: 20px;
+    border: 2px solid rgb(255, 47, 116);
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.s11 {
+    font-size: 25px;
+    padding: 15px;
+    width: 795px;
+    height: 300px;
+    text-align: center;
+    background-color: hotpink;
+}
+
+.s12 {
+    font-size: 25px;
+    padding: 15px;
+    width: 795px;
+    height: 300px;
+    text-align: center;
+    background-color: rgb(105, 110, 255);
+}
+
+.seven {
+    height: 100%;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.s13 {
+    font-size: 25px;
+    padding: 15px;
+
+    min-height: 20%;
+    text-align: center;
+    background-color: rgb(176, 177, 200);
+}
+
+.s14 {
+    font-size: 25px;
+    padding: 15px;
+
+    min-height: 20%;
+    text-align: center;
+    background-color: rgb(143, 192, 219);
+}
+
+.s15 {
+    font-size: 25px;
+    padding: 15px;
+
+    min-height: 20%;
+    text-align: center;
+    background-color: rgb(195, 153, 174);
+}
+
+.s16 {
+    font-size: 25px;
+    padding: 15px;
+
+    min-height: 20%;
+    text-align: center;
+    background-color: rgb(211, 125, 125);
+}
+
+.s17 {
+    font-size: 25px;
+    text-align: center;
+    background-image: url(./tm-sigma-00.jpg);
+
+}

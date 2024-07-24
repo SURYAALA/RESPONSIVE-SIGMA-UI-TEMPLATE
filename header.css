@@ -1,0 +1,70 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(./tm-sigma-00.jpg);
+    background-repeat: round;
+}
+
+.s1 {
+    width: 100%;
+    display: grid;
+    bottom: 70px;
+    font-size: 25px;
+    grid-template-columns: auto auto auto auto auto auto;
+    cursor: pointer;
+}
+
+.s2 {
+    top: 3%;
+    width: 80%;
+    font-size: 18px;
+    margin-left: 8%;
+    text-align: center;
+}
+button {
+    background-color: rgb(255, 166, 0);
+}
+#four {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    gap: 3px;
+}
+
+.s3 {
+    font-size: 20px;
+    padding: 2%;
+    min-height: 20%;
+    text-align-last: center;
+    background-color: gray;
+
+}
+
+.s4 {
+    font-size: 20px;
+    padding: 2%;
+    min-height: 20%;
+    text-align-last: center;
+    background-color: rgb(196, 177, 177);
+
+}
+
+.s5 {
+    font-size: 20px;
+    padding: 2%;
+    min-height: 20%;
+    text-align-last: center;
+    background-color: rgb(244, 230, 230);
+
+}
+
+.s6 {
+    font-size: 20px;
+    padding: 2%;
+    
+    min-height: 20%;
+    text-align-last: center;
+    background-color: rgb(213, 207, 207);
+
+}
